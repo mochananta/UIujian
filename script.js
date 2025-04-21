@@ -1,765 +1,1036 @@
 const questions = [
-    {
-      text: "Penyelenggaraan layanan urusan pemerintahan oleh pemerintah daerah dan dewan perwakilan rakyat daerah menurut asas otonomi dan tugas pembantuan dengan prinsip otonomi seluas-luasnya dalam sistem dan prinsip NKRI sebagaimana dimaksud dalam UUD Tahun 1945, disebut dengan...",
-      options: ["A. Instansi Pemerintah", "B. Instansi Pusat", "C. Pemerintah Daerah", "D. Pemerintahan Daerah", "E. Instansi Vertikal"],
-      correct: "C. Pemerintah Daerah"
-    },
-    {
-      text: "Terkait dengan pengaduannya dari penyelenggara dan pelaksana layanan operasional untuk mendukung pembuktian maka membutuhkan…",
-      options: ["A. Laporan", "B. Dokumen", "C. Kesaksian", "D. Penanggung jawab", "E. Pelaksana"],
-      correct: "B. Dokumen"
-    },
-    {
-      text: "Saat ini dalam pengurusan pelayanan perpanjang SIM sangatlah mudah. Masyarakat tidak perlu datang ke SAMSAT melainkan di era digitalisasi sekarang. Cukup mendownload aplikasinya dan mengikuti langkah yang ada. Dilakukan pembayaran dan nantinya SIM akan di kirimkan ke tempat tinggal masing-masing. Itu semua dilakukan pemerintah untuk mempermudah masyarakat dengan menggunakan...",
-      options: ["A. Sistem manajemen publik", "B. Teknologi", "C. Jaringan", "D. Manajemen digital", "E. Software"],
-      correct: "A. Sistem manajemen publik"
-    },
-    {
-      text: "Ketika Dito melakukan tugasnya untuk melakukan penggusuran di sekitar sungai dekat kantor pemerintahan terjadi sangat ricuh, hal tersebut disebabkan karena banyak warga yang belum setuju untuk dipindahkan. Kemudian mengajukan permohonan memperpanjang masa waktu sebulan untuk menyiapkannya dan ada bersedia untuk ditempatkan di rusun. Permohonan yang dilakukan disebut...",
-      options: ["A. Banding", "B. Dispensasi", "C. Masa remisi", "D. Atribusi", "E. Delegasi"],
-      correct: "B. Dispensasi"
-    },
-    {
-      text: "Guna menjamin kelancaran penyelenggaraan pelayanan publik, yaitu layanan operasional diperlukan..",
-      options: ["A. Kedisiplinan", "B. Pelatihan", "C. Pembina dan penanggung jawab", "D. Pengawasan", "E. Kerjasama"],
-      correct: "C. Pembina dan penanggung jawab"
-    },
-    {
-      text: "Petugas kebersihan di kantor Dinas Sosial setiap pagi membersihkan meja kerja pegawai, bagian mana yang harus dibersihkan terlebih dahulu?",
-      options: ["A. Bagian bawah meja", "B. Laci meja", "C. Permukaan atas meja", "D. Kaki meja", "E. Sisi samping meja"],
-      correct: "C. Permukaan atas meja"
-    },  
-    {
-      text: "Masyarakat dapat menggugat penyelenggara atau pelaksana layanan operasional melalui peradilan tata usaha negara apabila pelayanan yang diberikan menimbulkan…",
-      options: ["A. Kerugian", "B. Permasalahan", "C. Perselisihan", "D. Pertengkaran", "E. Kesalahpahaman"],
-      correct: "A. Kerugian"
-    }, 
-    {
-      text: "Ciri- ciri resiko kegagalan penyelenggaraan pada pelayanan publik adalah....",
-      options: ["A. Kerugian perseorangan", "B. Tanggung Jawab negara", "C. Tanggung Jawab warga", "D. Tinggi dan langsung", "E. Resiko kolektif, banyak orang dan bersama"],
-      correct: "E. Resiko kolektif, banyak orang dan bersama"
-    }, 
-    {
-      text: "Dalam penyusunan tata naskah dinas yang digunakan dalam pelayanan persuratan memiliki ruang lingkup Pedoman Tata Naskah Dinas yang meliputi...",
-      options: ["A. Pejabat penandatangan Naskah Dinas", "B. Jenis dan format naskah dinas", "C. Pembuatan naskah dinas", "D. Pengamanan naskah dinas", "E. Pengendalian Naskah Dinas"],
-      correct: "B. Jenis dan format naskah dinas"
-    }, 
-    {
-      text: "Karakter khusus dari suatu proses penyelenggaraan pelayanan publik adalah..",
-      options: ["A. Pelanggan yang bersifat eksternal cukup menonjol", "B. Selalu terkait dengan jenis pelayanan dalam bentuk lain", "C. Kurang efisien dan efektivitas", "D. Masyarakat secara keseluruhan diperlakukan tidak adil", "E. Tatanan kehidupan yang tidak baik"],
-      correct: "B. Selalu terkait dengan jenis pelayanan dalam bentuk lain"
-    }, 
-    {
-      text: "Yang termasuk jenis Naskah dinas khusus dalam pelayanan persuratan...",
-      options: ["A. Nota dinas, Disposisi, Instruksi", "B. Surat edaran, Nota dinas, Disposisi", "C. Pedoman, Berita acara, Surat keterangan", "D. Surat edaran, nota dinas, Berita acara", "E. Berita acara, Surat kuasa, Surat keterangan"],
-      correct: "A. Nota dinas, Disposisi, Instruksi"
-    }, 
-    {
-      text: "Bila saat sedang melakukan pelayanan operasional, kemudian pengguna ingin membuka lembar kerja baru yang lain, maka bisa dilakukan dengan cara tekan tombol...",
-      options: ["A. Ctrl + N", "B. Ctrl + S", "C. Ctrl + V", "D. Ctrl + U", "E. Ctrl + T"],
-      correct: "A. Ctrl + N"
-    }, 
-    {
-      text: "Yang termasuk jenis Naskah dinas arahan dalam pelayanan persuratan, yaitu...",
-      options: ["A. Peraturan perundang-undangan", "B. Surat edaran", "C. Naskah dinas penugasan", "D. Instruksi", "E. Standar operasional prosedur administrasi pemerintahan"],
-      correct: "C. Naskah dinas penugasan"
-    },
-    {
-      text: "Alex baru saja mengalami kegagalan besar dlm sebuah proyek yg telah dia kerjakan dgn keras. Dia merasa sangat kecewa dan meragukan kemampuannya. Melihat tsb Anda memilih untuk menghiraukannya karena masih banyak pekerjaan yang harus dilakukan....",
-      options: ["A. Sangat setuju", "B. Setuju", "C. Ragu-ragu", "D. Tidak setuju", "E. Sangat tidak setuju"],
-      correct: "E. Sangat tidak setuju"
-    },
-    {
-      text: "Pak Bambang saat itu sedang membutuhkan konsultasi mengenai pekerjaannya yang berhubungan dengan layanan statistik, kemudian ia segera mendatangi BPS untuk mendapatkan penjelasan yang detail. Hal yang dilakukan Pak Bambang termasuk jenis pelayanan…",
-      options: ["A. Langsung", "B. Tidak langsung", "C. Online", "D. Kemudahan Akses", "E. Kenyamanan"],
-      correct: "A. Langsung"
-    },
-    {
-      text: "Badan dan Pejabat Pemerintahan dapat menolak memberikan Bantuan Kedinasan apabila..",
-      options: ["A. Surat keterangan dan dokumen yang diperlukan tidak sesuai", "B. Mempengaruhi kinerja Badan dan Pejabat Pemerintahan pemberi bantuan", "C. Ketentuan peraturan perundang-undangan memperbolehkan pemberian bantuan", "D. Menolak untuk memberikan Bantuan", "E. Bantuan Kedinasan dibebankan kepada Pemerintahan"],
-      correct: "B. Mempengaruhi kinerja Badan dan Pejabat Pemerintahan pemberi bantuan"
-    },
-    {
-      text: "Ibu seorang perawat di Puskesmas dengan kepegawaian honorer sudah belasan tahun. Ia tidak pernah mengeluh pekerjaan dan penghasilannya yang tidak seimbang, ia selalu memberikan nasihat kepada karyawan yang muda bekerja harus dengan ikhlas dan memberikan yang terbaik terutama untuk keselamatan. Perkara penghasilan pasti pusat juga tidak diam saja melihat pegawainya susah. Dalam kasus tersebut puskesmas sektor publik tidak mencari keuntungan berbeda dengan klinik swasta yang mengarah ke...",
-      options: ["A. Individual", "B. Materi", "C. Profit oriented", "D. Kemanusiaan", "E. Sistem"],
-      correct: "C. Profit oriented"
-    },
-    {
-      text: "Selama 6 bulan sekali perusahaan cat mengadakan penilaian dari hasil kinerja. Yani ingin mendapatkan insentif yang banyak hasil dari penilaian performa tersebut. Sehingga ia setiap bulan mengusahakan bekerja sesuai dengan target dan tidak melanggar aturan. Itu semua ia lakukan ingin mendapatkan insentif besar dan nilai yang bagus sehingga ia dapat dipromosikan jabatannya. Tujuan analisis yang dibuat oleh perusahaan tersebut adalah...",
-      options: ["A. Performance appraisal", "B. Worker training", "C. Personil requirement", "D. Job designing restructuring", "E. Worker mobility"],
-      correct: "A. Performance appraisal"
-    },
-    {
-      text: "Pusat saat ini dalam menyelenggarakan rekrutmen pegawai ASN mempunyai kriteria masing-masing. Terutama untuk putra putri daerah, dimaksudkan agar rekrutmen dilakukan secara merata dan sama mendapatkan kesempatan untuk melamar. Sehingga mengurangi issue berita yang tidak baik. Karena Indonesia timur lebih banyak tertinggal maka itulah pusat mengadakan khusus untuk putra putri timur, dan diluar itu masyarakat juga dapat mencoba tetapi tidak dianjurkan untuk melamar bagian tersebut jika nekat nantinya dengan sistem otomatis langsung ditolak. Untuk itu aktivitas rekrutmen mempunyai tujuannya yaitu..",
-      options: ["A. Rekrutmen sebagai strategi responsivitas politik", "B. Rekrutmen sebagai teknik untuk memaksimalkan efisiensi", "C. Rekrutmen sebagai alat kendali sosial", "D. Responsivitas politik", "E. Memaksimumkan efisiensi"],
-      correct: "C. Rekrutmen sebagai alat kendali sosial"
-    },
-    {
-      text: "Izin, Dispensasi, atau Konsesi yang diajukan oleh pemohon wajib diberikan persetujuan atau penolakan oleh Badan dan Pejabat Pemerintahan paling lama…",
-      options: ["A. 14 hari kerja", "B. 7 hari kerja", "C. 10 hari kerja", "D. 3 hari kerja", "E. 20 hari kerja"],
-      correct: "C. 10 hari kerja"
-    },
-    {
-      text: "Bu Gina dalam mengelola sumber daya pekerja selalu membuat perencanaan terlebih dahulu. Kemudian ia mengevaluasi jumlah staf tiap divisi untuk memastikan kembali. Ternyata staff produksi banyak kekurangan sehingga dalam pengerjaan terbilang lama dan berat. Untuk itu ia melakukan rekrutmen SDM untuk menambah jumlah staf sedangkan divisi yang dirasa staff berlebihan harus dimutasi di divisi lain untuk pemerataan dan dibuatlah struktur organisasi. Orientasi analisis tersebut mempunyai manfaat antara lain...",
-      options: ["A. Desain pegawai", "B. Analisis penyusunan pegawai", "C. Pelatihan dan pengembangan", "D. Telaah dari perencanaan kinerja", "E. Evaluasi pegawai"],
-      correct: "B. Analisis penyusunan pegawai"
-    },
-    {
-      text: "Teman Budi menjadi iri karena Budi bisa mendapatkan remunerasi tersebut. Budi pun memberikan dukungan dan berbagi ilmu kepadanya agar ia juga mendapatkan hal yang sama sesuai bidang yang ia tekuni. Beberapa bulan setelah itu temannya membukti kepada atasannya telah berhasil memenuhi target yang diberikan perusahaan. Lalu ia diberikan kompensasi dari perusahaan, dengan tujuan pemberian itu untuk...",
-      options: ["A. Motivasi", "B. Pengadaan efektif", "C. Kepuasan kerja", "D. Ikatan Kerjasama", "E. Disiplin"],
-      correct: "C. Kepuasan kerja"
-    },
-    {
-      text: "Saat ini dalam pengurusan perpanjang SIM sangatlah mudah. Masyarakat tidak perlu datang ke SAMSAT melainkan di era digitalisasi sekarang. Cukup mendownload aplikasinya dan mengikuti langkah yang ada. Dilakukan pembayaran dan nantinya SIM akan di kirimkan ke tempat tinggal masing-masing. Itu semua dilakukan pemerintah untuk mempermudah masyarakat dengan menggunakan...",
-      options: ["A. Sistem manajemen publik", "B. Teknologi", "C. Jaringan", "D. Manajemen digital", "E. Software"],
-      correct: "A. Sistem manajemen publik"
-    },
-    {
-      text: "Budi selama 2 minggu tidak masuk kerja karena mendapatkan tugas untuk mewakili perusahaannya dalam sertifikasi dengan perusahaan lainnya. Budi terpilih karena kinerjanya yang bagus serta wawasannya luas. Sertifikasi yang ia ikuti membuahkan hasil yang baik. Ia masuk dalam 3 besar perusahaan bebas limbah. Ketika ia kembali masuk bekerja,direktur memberikan imbalan atas prestasi yang mengharumkan perusahaan. Imbalan dari perusahaan tersebut bernama...",
-      options: ["A. Hadiah", "B. Reward", "C. Insentif", "D. Gaji", "E. Remunerasi"],
-      correct: "E. Remunerasi"
-    },
-    {
-      text: "Yang bukan termasuk substansi peraturan perundang-undangan yang ada pada bagian batang tubuh . . .",
-      options: ["A. Nama jabatan pejabat yang menetapkan", "B. Ketentuan Umum", "C. Materi pokok yang diatur", "D. Ketentuan sanksi", "E. Ketentuan penutup"],
-      correct: "A. Nama jabatan pejabat yang menetapkan"
-    },
-    {
-      text: "Berikut ini kekuasaan atas pengelolaan fiskal Menteri Keuangan, kecuali...",
-      options: ["A. Membuat kerangka ekonomi makro", "B. Melakukan perjanjian internasional", "C. Melaksanakan fungsi bendahara umum negara", "D. Membuat kebijakan pengedaran uang", "E. Menyusun rancangan APBN"],
-      correct: "D. Membuat kebijakan pengedaran uang"
-    },
-    {
-      text: "Komunikasi dapat terjadi apabila...",
-      options: ["A. Adanya rasa percaya diri yang rendah.", "B. Adanya perbedaan dialek.", "C. Adanya kesamaan antara penyampaian pesan dan orang yang menerima pesan.", "D. Adanya jarak antara komunikator dengan komunikan.", "E. Adanya penggunaan bahasa yang berbeda."],
-      correct: "C. Adanya kesamaan antara penyampaian pesan dan orang yang menerima pesan."
-    },
-    {
-      text: "Penelitian sastra termasuk jenis penelitian...",
-      options: ["A. Cross-sectional.", "B. Deskriptif.", "C. Dasar.", "D. Terapan.", "E. Kepustakaan."],
-      correct: "E. Kepustakaan."
-    },
-    {
-      text: "Pejabat yang berwenang menetapkan dan menandatangani peraturan adalah...",
-      options: ["A. Sekretaris Lembaga", "B. Bendahara Lembaga", "C. Staff Lembaga", "D. Humas Lembaga", "E. Pimpinan tertinggi lembaga"],
-      correct: "E. Pimpinan tertinggi lembaga"
-    },
-    {
-      text: "Apa yang dimaksud dengan layanan operasional dalam konteks pelayanan publik?",
-      options: [
-        "A. Kegiatan promosi kepada masyarakat",
-        "B. Proses pengambilan keputusan strategis",
-        "C. Kegiatan administratif internal",
-        "D. Kegiatan untuk memberikan pelayanan kepada masyarakat berdasarkan prosedur yang ada",
-        "E. Tindakan hukum terhadap pelanggaran publik"
-      ],
-      correct: "D. Kegiatan untuk memberikan pelayanan kepada masyarakat berdasarkan prosedur yang ada"
-    },
-    {
-      text: "Apa yang harus dilakukan jika menemukan gangguan pada sistem yang digunakan dalam layanan operasional?",
-      options: [
-        "A. Langsung mengganti seluruh sistem",
-        "B. Mengabaikan gangguan tersebut",
-        "C. Menyalahkan pengguna sistem",
-        "D. Melakukan identifikasi masalah dan menghubungi tim teknis jika perlu",
-        "E. Meminta pelanggan untuk sabar menunggu"
-      ],
-      correct: "D. Melakukan identifikasi masalah dan menghubungi tim teknis jika perlu"
-    },
-    {
-      text: "Apa yang dimaksud dengan SOP (Standard Operating Procedure) dalam layanan operasional?",
-      options: [
-        "A. Rangkaian kebijakan yang dibuat pimpinan",
-        "B. Prosedur baku yang memastikan konsistensi dan efisiensi proses operasional",
-        "C. Panduan khusus untuk pelanggan",
-        "D. Proses hukum terhadap pelanggaran aturan",
-        "E. Strategi promosi layanan"
-      ],
-      correct: "B. Prosedur baku yang memastikan konsistensi dan efisiensi proses operasional"
-    },
-    {
-      text: "Apa yang termasuk dalam tanggung jawab operator layanan operasional?",
-      options: [
-        "A. Melakukan audit keuangan",
-        "B. Merancang strategi perusahaan",
-        "C. Menyusun undang-undang",
-        "D. Menjalankan layanan, menangani keluhan, dan menjaga kualitas layanan",
-        "E. Menetapkan kebijakan nasional"
-      ],
-      correct: "D. Menjalankan layanan, menangani keluhan, dan menjaga kualitas layanan"
-    },
-    {
-      text: "Sebutkan satu contoh teknologi yang sering digunakan dalam layanan operasional!",
-      options: [
-        "A. Mesin ketik manual",
-        "B. Mesin fax",
-        "C. Sistem informasi manajemen",
-        "D. Lembaran kerja kertas",
-        "E. Kartu punch"
-      ],
-      correct: "C. Sistem informasi manajemen"
-    },
-    {
-      text: "Apa yang dimaksud dengan KPI (Key Performance Indicator) dalam layanan operasional?",
-      options: [
-        "A. Prosedur keamanan layanan",
-        "B. Alat ukur tingkat kepuasan pelanggan",
-        "C. Indikator kinerja yang digunakan untuk mengukur pencapaian tujuan layanan",
-        "D. Sistem laporan keuangan",
-        "E. Strategi promosi layanan operasional"
-      ],
-      correct: "C. Indikator kinerja yang digunakan untuk mengukur pencapaian tujuan layanan"
-    },
-    {
-      text: "Bagaimana cara menangani keluhan pelanggan dalam layanan operasional?",
-      options: [
-        "A. Mengabaikan dan menunggu pelanggan tenang",
-        "B. Meneruskan langsung ke atasan tanpa tindakan",
-        "C. Mendengarkan, menganalisis masalah, memberikan solusi, dan memberi umpan balik",
-        "D. Menyuruh pelanggan menghubungi pihak lain",
-        "E. Membuat laporan tanpa memberi tanggapan"
-      ],
-      correct: "C. Mendengarkan, menganalisis masalah, memberikan solusi, dan memberi umpan balik"
-    },
-    {
-      text: "Apa yang dimaksud dengan \"proses berkelanjutan\" dalam konteks layanan operasional?",
-      options: [
-        "A. Proses yang memiliki awal dan akhir tetap",
-        "B. Proses yang dilakukan hanya saat ada masalah",
-        "C. Upaya terus-menerus untuk meningkatkan kualitas dan efisiensi layanan",
-        "D. Proses sementara yang dilakukan secara musiman",
-        "E. Sistem penjadwalan shift pegawai"
-      ],
-      correct: "C. Upaya terus-menerus untuk meningkatkan kualitas dan efisiensi layanan"
-    },
-    {
-      text: "Apa yang harus diperhatikan dalam menjaga kualitas layanan operasional?",
-      options: [
-        "A. Memotong biaya pelayanan",
-        "B. Fokus hanya pada target kuantitas",
-        "C. Konsistensi prosedur, kepuasan pelanggan, dan pemantauan kinerja",
-        "D. Mengurangi jumlah staf layanan",
-        "E. Memberi bonus tanpa evaluasi"
-      ],
-      correct: "C. Konsistensi prosedur, kepuasan pelanggan, dan pemantauan kinerja"
-    },
-    {
-      text: "Apa langkah pertama yang harus dilakukan dalam menghadapi gangguan teknis pada layanan operasional?",
-      options: [
-        "A. Segera mematikan sistem",
-        "B. Menunggu tim teknis datang",
-        "C. Mengidentifikasi sumber masalah dan melaporkannya ke tim terkait",
-        "D. Mengganti perangkat keras secara langsung",
-        "E. Menghubungi pelanggan untuk meminta maaf"
-      ],
-      correct: "C. Mengidentifikasi sumber masalah dan melaporkannya ke tim terkait"
-    },
-    {
-      text: "Apa yang dimaksud dengan customer satisfaction dalam layanan operasional?",
-      options: [
-        "A. Banyaknya layanan yang diberikan kepada pelanggan",
-        "B. Lama waktu tunggu pelanggan",
-        "C. Ukuran kepuasan pelanggan terhadap layanan yang diberikan",
-        "D. Jumlah pelanggan yang dilayani dalam sehari",
-        "E. Jenis layanan yang tersedia"
-      ],
-      correct: "C. Ukuran kepuasan pelanggan terhadap layanan yang diberikan"
-    },
-    {
-      text: "Apa yang dimaksud dengan analisis kebutuhan dalam konteks layanan operasional?",
-      options: [
-        "A. Penjadwalan ulang operasional",
-        "B. Evaluasi anggaran layanan",
-        "C. Proses mengidentifikasi dan memahami kebutuhan pelanggan serta cara memenuhinya",
-        "D. Penentuan harga layanan",
-        "E. Pelaporan hasil operasional"
-      ],
-      correct: "C. Proses mengidentifikasi dan memahami kebutuhan pelanggan serta cara memenuhinya"
-    },
-    {
-      text: "Apa yang dimaksud dengan SLA (Service Level Agreement)?",
-      options: [
-        "A. Rencana kerja tim operasional",
-        "B. Daftar harga layanan",
-        "C. Kesepakatan tingkat layanan antara penyedia dan pelanggan",
-        "D. Panduan teknis internal",
-        "E. Struktur organisasi layanan"
-      ],
-      correct: "C. Kesepakatan tingkat layanan antara penyedia dan pelanggan"
-    },
-    {
-      text: "Apa yang perlu dilakukan jika layanan yang diberikan tidak sesuai dengan standar yang ditetapkan?",
-      options: [
-        "A. Menunggu laporan dari pelanggan",
-        "B. Mengurangi aktivitas operasional",
-        "C. Evaluasi proses, cari akar masalah, perbaiki prosedur, dan lakukan perbaikan segera",
-        "D. Ganti seluruh tim operasional",
-        "E. Menutup sementara layanan"
-      ],
-      correct: "C. Evaluasi proses, cari akar masalah, perbaiki prosedur, dan lakukan perbaikan segera"
-    },
-    {
-      text: "Bagaimana cara mengukur efektivitas layanan operasional?",
-      options: [
-        "A. Jumlah karyawan yang hadir",
-        "B. Banyaknya produk yang dihasilkan",
-        "C. Indikator seperti waktu respons, kepuasan pelanggan, dan penyelesaian keluhan",
-        "D. Jumlah keluhan yang masuk",
-        "E. Luasnya area layanan"
-      ],
-      correct: "C. Indikator seperti waktu respons, kepuasan pelanggan, dan penyelesaian keluhan"
-    },
-    {
-      text: "Apa yang dimaksud dengan “feedback loop” dalam layanan operasional?",
-      options: [
-        "A. Sistem penjadwalan kerja berkala",
-        "B. Rangkaian evaluasi keuangan",
-        "C. Proses mengumpulkan, menganalisis, dan menerapkan umpan balik untuk peningkatan layanan",
-        "D. Metode pengumpulan data pelanggan",
-        "E. Model pelaporan manual"
-      ],
-      correct: "C. Proses mengumpulkan, menganalisis, dan menerapkan umpan balik untuk peningkatan layanan"
-    },
-    {
-      text: "Mengapa pelatihan sangat penting dalam layanan operasional?",
-      options: [
-        "A. Untuk mengurangi jam kerja karyawan",
-        "B. Agar karyawan mendapat promosi lebih cepat",
-        "C. Untuk memastikan pemahaman prosedur dan peningkatan kualitas layanan",
-        "D. Karena merupakan bagian dari syarat administratif",
-        "E. Untuk menyenangkan pelanggan"
-      ],
-      correct: "C. Untuk memastikan pemahaman prosedur dan peningkatan kualitas layanan"
-    },
-    {
-      text: "Apa yang dimaksud dengan continuous improvement dalam layanan operasional?",
-      options: [
-        "A. Pengurangan biaya secara drastis",
-        "B. Peningkatan staf layanan setiap bulan",
-        "C. Pendekatan untuk terus meningkatkan proses dan kualitas layanan secara rutin",
-        "D. Perubahan jadwal layanan secara berkala",
-        "E. Penghapusan prosedur yang tidak penting"
-      ],
-      correct: "C. Pendekatan untuk terus meningkatkan proses dan kualitas layanan secara rutin"
-    },
-    {
-      text: "Apa yang harus dilakukan operator layanan operasional saat ada masalah yang mempengaruhi banyak pelanggan?",
-      options: [
-        "A. Menunggu hingga pelanggan menyampaikan keluhan",
-        "B. Segera memberitahu atasan dan menutup layanan",
-        "C. Identifikasi masalah, beri informasi jelas, ambil tindakan cepat, dan selesaikan segera",
-        "D. Mengabaikan masalah jika belum ada laporan resmi",
-        "E. Melaporkan ke bagian keuangan"
-      ],
-      correct: "C. Identifikasi masalah, beri informasi jelas, ambil tindakan cepat, dan selesaikan segera"
-    },
-    {
-      text: "Bagaimana cara mendokumentasikan prosedur layanan operasional?",
-      options: [
-        "A. Menulis ringkasan tanpa detail teknis",
-        "B. Menyimpan semua informasi di memori tim",
-        "C. Dokumentasi harus jelas, rinci, mudah diakses, dan mencakup setiap langkah",
-        "D. Mengandalkan komunikasi lisan antar tim",
-        "E. Menyimpan catatan dalam file pribadi"
-      ],
-      correct: "C. Dokumentasi harus jelas, rinci, mudah diakses, dan mencakup setiap langkah"
-    },
-    {
-      text: "Apa yang dimaksud dengan pemantauan kinerja dalam layanan operasional?",
-      options: [
-        "A. Mengatur jadwal kerja staf",
-        "B. Proses menilai efektivitas operasional melalui indikator seperti kepuasan dan kecepatan respon",
-        "C. Pengawasan absensi karyawan",
-        "D. Pemeriksaan hasil laporan keuangan",
-        "E. Menyusun daftar pekerjaan harian"
-      ],
-      correct: "B. Proses menilai efektivitas operasional melalui indikator seperti kepuasan dan kecepatan respon"
-    },
-    {
-      text: "Bagaimana cara meningkatkan efisiensi layanan operasional?",
-      options: [
-        "A. Mengurangi jam kerja staf",
-        "B. Memperbanyak rapat evaluasi",
-        "C. Otomatisasi proses, pelatihan staf, penggunaan teknologi, dan perbaikan prosedur rutin",
-        "D. Menambahkan lebih banyak prosedur manual",
-        "E. Menunggu evaluasi tahunan"
-      ],
-      correct: "C. Otomatisasi proses, pelatihan staf, penggunaan teknologi, dan perbaikan prosedur rutin"
-    },
-    {
-      text: "Apa yang dimaksud dengan manajemen risiko dalam layanan operasional?",
-      options: [
-        "A. Menghitung biaya operasional setiap bulan",
-        "B. Mengelola konflik antar karyawan",
-        "C. Proses mengidentifikasi, menganalisis, dan mengelola risiko operasional untuk mencegah gangguan",
-        "D. Menyusun laporan audit keuangan",
-        "E. Menentukan gaji staf layanan"
-      ],
-      correct: "C. Proses mengidentifikasi, menganalisis, dan mengelola risiko operasional untuk mencegah gangguan"
-    },
-    {
-      text: "Apa yang harus dilakukan jika seorang pelanggan memberikan umpan balik negatif?",
-      options: [
-        "A. Mengabaikan dan menunggu pelanggan tenang",
-        "B. Menyalahkan pelanggan atas kesalahan yang terjadi",
-        "C. Mendengarkan keluhan, memahami masalah, memberi solusi, dan mencegah masalah serupa",
-        "D. Segera memberikan diskon sebagai kompensasi",
-        "E. Mengarahkan pelanggan untuk berbicara dengan pihak manajemen"
-      ],
-      correct: "C. Mendengarkan keluhan, memahami masalah, memberi solusi, dan mencegah masalah serupa"
-    },
-    {
-      text: "Apa yang dimaksud dengan work order dalam layanan operasional?",
-      options: [
-        "A. Daftar belanja bulanan",
-        "B. Laporan keuangan tahunan",
-        "C. Dokumen instruksi tugas seperti perbaikan atau pemeliharaan",
-        "D. Catatan absensi staf",
-        "E. Rencana promosi layanan"
-      ],
-      correct: "C. Dokumen instruksi tugas seperti perbaikan atau pemeliharaan"
-    },
-    {
-      text: "Apa saja elemen penting dalam perencanaan layanan operasional?",
-      options: [
-        "A. Promosi produk dan penjualan",
-        "B. Penetapan tujuan, sumber daya, prosedur, teknologi, dan metrik kinerja",
-        "C. Rekrutmen staf baru setiap bulan",
-        "D. Laporan tahunan perusahaan",
-        "E. Pemangkasan anggaran dan pengurangan layanan"
-      ],
-      correct: "B. Penetapan tujuan, sumber daya, prosedur, teknologi, dan metrik kinerja"
-    },
-    {
-      text: "Apa itu backlog dalam konteks layanan operasional?",
-      options: [
-        "A. Laporan pengeluaran bulanan",
-        "B. Daftar pekerjaan yang sudah selesai",
-        "C. Kumpulan pekerjaan yang belum diselesaikan karena keterlambatan atau kekurangan sumber daya",
-        "D. Catatan kinerja staf",
-        "E. Permintaan layanan dari pelanggan baru"
-      ],
-      correct: "C. Kumpulan pekerjaan yang belum diselesaikan karena keterlambatan atau kekurangan sumber daya"
-    },
-    {
-      text: "Apa peran teknologi dalam mendukung layanan operasional?",
-      options: [
-        "A. Mengurangi kebutuhan komunikasi",
-        "B. Menghambat proses manual",
-        "C. Meningkatkan efisiensi, otomatisasi, pemantauan, dan komunikasi",
-        "D. Hanya digunakan untuk pemasaran",
-        "E. Menggantikan seluruh staf layanan"
-      ],
-      correct: "C. Meningkatkan efisiensi, otomatisasi, pemantauan, dan komunikasi"
-    },
-    {
-      text: "Sebutkan contoh alat yang digunakan untuk mengelola layanan operasional!",
-      options: [
-        "A. Kalkulator dan papan tulis",
-        "B. Software desain grafis",
-        "C. Sistem manajemen layanan, perangkat lunak CRM, dan alat analitik",
-        "D. Buku catatan harian",
-        "E. Aplikasi media sosial"
-      ],
-      correct: "C. Sistem manajemen layanan, perangkat lunak CRM, dan alat analitik"
-    },
-    {
-      text: "Bagaimana cara menjaga agar layanan operasional tetap sesuai dengan standar?",
-      options: [
-        "A. Membiarkan staf bekerja secara bebas",
-        "B. Menunggu umpan balik negatif muncul",
-        "C. Pemantauan rutin, pembaruan prosedur, pelatihan staf, dan umpan balik pelanggan",
-        "D. Mengurangi pengawasan",
-        "E. Menghindari inovasi baru"
-      ],
-      correct: "C. Pemantauan rutin, pembaruan prosedur, pelatihan staf, dan umpan balik pelanggan"
-    },
-    {
-      text: "Apa yang dimaksud dengan troubleshooting dalam konteks layanan operasional?",
-      options: [
-        "A. Proses pembuatan laporan operasional",
-        "B. Proses identifikasi dan pemecahan masalah atau gangguan dalam sistem operasional",
-        "C. Proses merencanakan jadwal tugas",
-        "D. Proses mengevaluasi kinerja staf",
-        "E. Proses mengorganisir acara internal perusahaan"
-      ],
-      correct: "B. Proses identifikasi dan pemecahan masalah atau gangguan dalam sistem operasional"
-    },
-    {
-      text: "Bagaimana cara mengelola waktu dengan efektif dalam layanan operasional?",
-      options: [
-        "A. Menunda pekerjaan yang tidak penting",
-        "B. Merencanakan dan memprioritaskan tugas, menggunakan alat bantu, dan menghindari prokrastinasi",
-        "C. Melakukan multitasking secara terus-menerus",
-        "D. Fokus hanya pada tugas yang paling besar",
-        "E. Menghindari penggunaan teknologi untuk mengelola waktu"
-      ],
-      correct: "B. Merencanakan dan memprioritaskan tugas, menggunakan alat bantu, dan menghindari prokrastinasi"
-    },
-    {
-      text: "Apa yang harus dilakukan untuk meningkatkan produktivitas tim layanan operasional?",
-      options: [
-        "A. Menetapkan tujuan yang jelas, memberi pelatihan, komunikasi yang efektif, dan memberi penghargaan atas kinerja",
-        "B. Meningkatkan jumlah jam kerja setiap hari",
-        "C. Mengurangi jumlah rapat internal tim",
-        "D. Fokus hanya pada pekerjaan individu, bukan tim",
-        "E. Mengurangi jumlah staf untuk efisiensi"
-      ],
-      correct: "A. Menetapkan tujuan yang jelas, memberi pelatihan, komunikasi yang efektif, dan memberi penghargaan atas kinerja"
-    },
-    {
-      text: "Apa peran komunikasi dalam layanan operasional?",
-      options: [
-        "A. Hanya digunakan dalam rapat tahunan",
-        "B. Komunikasi yang efektif penting untuk memastikan informasi disampaikan dengan jelas dan tepat waktu",
-        "C. Komunikasi hanya penting dalam pemasaran",
-        "D. Mengurangi beban kerja staf",
-        "E. Komunikasi hanya berlaku antar pelanggan"
-      ],
-      correct: "B. Komunikasi yang efektif penting untuk memastikan informasi disampaikan dengan jelas dan tepat waktu"
-    },
-    {
-      text: "Apa yang dimaksud dengan waktu respons dalam layanan operasional?",
-      options: [
-        "A. Waktu yang dibutuhkan untuk mengumpulkan umpan balik pelanggan",
-        "B. Waktu yang dibutuhkan untuk merespons permintaan atau masalah dari pelanggan",
-        "C. Waktu untuk menyelesaikan laporan bulanan",
-        "D. Waktu yang dibutuhkan untuk pelatihan staf",
-        "E. Waktu yang dihabiskan dalam rapat tim"
-      ],
-      correct: "B. Waktu yang dibutuhkan untuk merespons permintaan atau masalah dari pelanggan"
-    },
-    {
-      text: "Sebutkan beberapa tantangan dalam layanan operasional yang perlu diatasi!",
-      options: [
-        "A. Penurunan kualitas produk",
-        "B. Gangguan sistem, kurangnya sumber daya manusia, ketidaksesuaian layanan dengan harapan pelanggan, kendala teknis atau prosedural",
-        "C. Kurangnya produk baru untuk dijual",
-        "D. Proses pengembangan produk yang terlalu lambat",
-        "E. Pemasaran yang berlebihan"
-      ],
-      correct: "B. Gangguan sistem, kurangnya sumber daya manusia, ketidaksesuaian layanan dengan harapan pelanggan, kendala teknis atau prosedural"
-    },
-    {
-      text: "Bagaimana cara meningkatkan kualitas layanan operasional?",
-      options: [
-        "A. Mengurangi biaya operasional",
-        "B. Meningkatkan keterampilan staf melalui pelatihan, mengoptimalkan penggunaan teknologi, memantau kinerja secara rutin, dan memastikan prosedur efektif",
-        "C. Menambah jumlah staf",
-        "D. Mengurangi waktu layanan kepada pelanggan",
-        "E. Fokus pada pengurangan biaya saja"
-      ],
-      correct: "B. Meningkatkan keterampilan staf melalui pelatihan, mengoptimalkan penggunaan teknologi, memantau kinerja secara rutin, dan memastikan prosedur efektif"
-    },
-    {
-      text: "Apa yang dimaksud dengan manajemen sumber daya manusia dalam layanan operasional?",
-      options: [
-        "A. Proses mengurangi biaya operasional",
-        "B. Proses perekrutan, pelatihan, penilaian, dan pengembangan keterampilan staf yang terlibat dalam layanan",
-        "C. Proses menyusun jadwal kerja untuk staf",
-        "D. Proses mengurangi jumlah staf",
-        "E. Proses melakukan audit keuangan"
-      ],
-      correct: "B. Proses perekrutan, pelatihan, penilaian, dan pengembangan keterampilan staf yang terlibat dalam layanan"
-    },
-    {
-      text: "Apa yang dimaksud dengan time management dalam layanan operasional?",
-      options: [
-        "A. Mengatur prioritas, penjadwalan, dan menghindari pemborosan waktu",
-        "B. Menunda pekerjaan yang tidak penting",
-        "C. Menghabiskan lebih banyak waktu untuk rapat internal",
-        "D. Fokus hanya pada tugas dengan deadline mendekat",
-        "E. Menghindari penggunaan teknologi"
-      ],
-      correct: "A. Mengatur prioritas, penjadwalan, dan menghindari pemborosan waktu"
-    },
-    {
-      text: "Sebutkan langkah yang harus dilakukan jika terjadi keluhan berulang dari pelanggan?",
-      options: [
-        "A. Mengabaikan keluhan dan melanjutkan pekerjaan",
-        "B. Melakukan analisis mendalam untuk mengidentifikasi akar penyebab keluhan, memperbaiki sistem atau prosedur, serta memberikan pelatihan kepada staf",
-        "C. Memberikan diskon kepada pelanggan",
-        "D. Mengganti staf yang terlibat langsung",
-        "E. Menunda penanganan keluhan hingga lebih banyak pelanggan mengeluh"
-      ],
-      correct: "B. Melakukan analisis mendalam untuk mengidentifikasi akar penyebab keluhan, memperbaiki sistem atau prosedur, serta memberikan pelatihan kepada staf"
-    },
-    {
-      text: "Apa yang dimaksud dengan delegation dalam layanan operasional?",
-      options: [
-        "A. Proses memberi penghargaan kepada staf",
-        "B. Proses penugasan tugas atau tanggung jawab kepada anggota tim sesuai kemampuan dan keahlian mereka",
-        "C. Proses mengatur jadwal rapat",
-        "D. Proses menilai kinerja staf",
-        "E. Proses menghentikan pekerjaan sementara"
-      ],
-      correct: "B. Proses penugasan tugas atau tanggung jawab kepada anggota tim sesuai kemampuan dan keahlian mereka"
-    },
-    {
-      text: "Bagaimana cara memastikan bahwa proses layanan operasional berjalan sesuai prosedur yang telah ditetapkan?",
-      options: [
-        "A. Dengan mengabaikan prosedur dan fokus pada hasil",
-        "B. Dengan pemantauan rutin, audit internal, serta memberikan pelatihan dan pembaruan terkait prosedur kepada staf",
-        "C. Dengan mengurangi prosedur yang ada",
-        "D. Dengan membiarkan staf mengikuti prosedur mereka sendiri",
-        "E. Dengan hanya mengandalkan teknologi untuk memantau"
-      ],
-      correct: "B. Dengan pemantauan rutin, audit internal, serta memberikan pelatihan dan pembaruan terkait prosedur kepada staf"
-    },
-    {
-      text: "Apa yang dimaksud dengan pemecahan masalah secara proaktif dalam layanan operasional?",
-      options: [
-        "A. Menunggu masalah terjadi sebelum mengambil tindakan",
-        "B. Mengidentifikasi dan mengatasi potensi masalah sebelum berkembang menjadi gangguan besar melalui analisis tren dan perencanaan yang matang",
-        "C. Mengabaikan masalah jika tidak mempengaruhi banyak orang",
-        "D. Mengalihkan masalah ke departemen lain",
-        "E. Meningkatkan jumlah staf untuk menghadapi masalah"
-      ],
-      correct: "B. Mengidentifikasi dan mengatasi potensi masalah sebelum berkembang menjadi gangguan besar melalui analisis tren dan perencanaan yang matang"
-    },
-    {
-      text: "Apa yang dimaksud dengan workflow dalam layanan operasional?",
-      options: [
-        "A. Urutan proses atau tugas yang harus dilalui untuk menyelesaikan suatu kegiatan operasional",
-        "B. Proses perekrutan staf",
-        "C. Proses penurunan biaya operasional",
-        "D. Proses pengendalian kualitas produk",
-        "E. Proses pengiriman barang"
-      ],
-      correct: "A. Urutan proses atau tugas yang harus dilalui untuk menyelesaikan suatu kegiatan operasional"
-    },
-    {
-      text: "Sebutkan salah satu cara untuk meningkatkan kepuasan pelanggan dalam layanan operasional!",
-      options: [
-        "A. Memberikan layanan yang responsif dan personal, serta menangani masalah atau keluhan pelanggan dengan cepat dan efektif",
-        "B. Mengurangi biaya layanan",
-        "C. Menambah jumlah staf",
-        "D. Mengurangi waktu layanan",
-        "E. Mengabaikan keluhan yang tidak terlalu penting"
-      ],
-      correct: "A. Memberikan layanan yang responsif dan personal, serta menangani masalah atau keluhan pelanggan dengan cepat dan efektif"
-    },
-    {
-      text: "Apa yang dimaksud dengan quality assurance dalam layanan operasional?",
-      options: [
-        "A. Proses untuk memastikan bahwa layanan yang diberikan memenuhi standar kualitas yang ditetapkan melalui pengujian, audit, dan evaluasi rutin",
-        "B. Proses pengurangan biaya operasional",
-        "C. Proses penjadwalan layanan",
-        "D. Proses menghentikan layanan sementara",
-        "E. Proses mempercepat layanan kepada pelanggan"
-      ],
-      correct: "A. Proses untuk memastikan bahwa layanan yang diberikan memenuhi standar kualitas yang ditetapkan melalui pengujian, audit, dan evaluasi rutin"
-    },
-    {
-      text: "Bagaimana cara mengelola perubahan dalam layanan operasional?",
-      options: [
-        "A. Merencanakan perubahan secara matang, memberikan pelatihan kepada staf, mengomunikasikan perubahan dengan jelas, serta memonitor dampak perubahan untuk memastikan keberhasilan implementasi",
-        "B. Mengabaikan dampak perubahan dan langsung implementasikan perubahan",
-        "C. Mengurangi komunikasi tentang perubahan dengan staf",
-        "D. Menghindari perubahan yang terlalu besar",
-        "E. Menunda perubahan hingga masalah menjadi lebih besar"
-      ],
-      correct: "A. Merencanakan perubahan secara matang, memberikan pelatihan kepada staf, mengomunikasikan perubahan dengan jelas, serta memonitor dampak perubahan untuk memastikan keberhasilan implementasi"
-    },
-    {
-      text: "Apa yang dimaksud dengan throughput dalam layanan operasional?",
-      options: [
-        "A. Jumlah pekerjaan atau permintaan yang dapat diproses dalam periode waktu tertentu",
-        "B. Waktu yang dibutuhkan untuk menyelesaikan satu pekerjaan",
-        "C. Proses mengurangi biaya operasional",
-        "D. Proses menganalisis kualitas produk",
-        "E. Jumlah staf yang dibutuhkan dalam operasional"
-      ],
-      correct: "A. Jumlah pekerjaan atau permintaan yang dapat diproses dalam periode waktu tertentu"
-    },
-    {
-      text: "Apa yang dimaksud dengan kecepatan layanan dalam konteks operasional?",
-      options: [
-        "A. Waktu yang diperlukan untuk memproses permintaan atau menyelesaikan tugas yang diminta oleh pelanggan",
-        "B. Jumlah staf yang bekerja dalam operasional",
-        "C. Waktu yang dibutuhkan untuk merencanakan layanan",
-        "D. Kecepatan pengiriman barang",
-        "E. Waktu tunggu pelanggan di antrean"
-      ],
-      correct: "A. Waktu yang diperlukan untuk memproses permintaan atau menyelesaikan tugas yang diminta oleh pelanggan"
-    },
-    {
-      text: "Apa yang dimaksud dengan pemeliharaan preventif dalam layanan operasional?",
-      options: [
-        "A. Upaya untuk mencegah kerusakan atau gangguan dengan melakukan pemeriksaan dan perawatan rutin pada sistem atau perangkat",
-        "B. Perbaikan mendesak pada sistem yang rusak",
-        "C. Proses mengganti perangkat yang sudah usang",
-        "D. Peningkatan kapasitas sistem untuk menangani lebih banyak beban",
-        "E. Mengurangi biaya operasional"
-      ],
-      correct: "A. Upaya untuk mencegah kerusakan atau gangguan dengan melakukan pemeriksaan dan perawatan rutin pada sistem atau perangkat"
-    },
-    {
-      text: "Apa yang dimaksud dengan 'first call resolution' dalam layanan operasional?",
-      options: [
-        "A. Kemampuan untuk menyelesaikan masalah pelanggan pada saat interaksi pertama, tanpa perlu mengarahkan mereka ke departemen lain",
-        "B. Proses mengalihkan masalah pelanggan ke departemen lain",
-        "C. Menunda penyelesaian masalah pelanggan hingga waktu yang lebih lama",
-        "D. Proses menanggapi keluhan pelanggan melalui email",
-        "E. Menyelesaikan masalah pelanggan setelah beberapa percakapan"
-      ],
-      correct: "A. Kemampuan untuk menyelesaikan masalah pelanggan pada saat interaksi pertama, tanpa perlu mengarahkan mereka ke departemen lain"
-    },
-    {
-      text: "Apa yang dimaksud dengan operational cost dalam layanan operasional?",
-      options: [
-        "A. Biaya yang dikeluarkan untuk menjalankan dan mempertahankan operasi layanan, termasuk biaya tenaga kerja, bahan, peralatan, dan teknologi",
-        "B. Biaya yang dikeluarkan untuk memperkenalkan layanan baru",
-        "C. Biaya pengembangan produk atau layanan baru",
-        "D. Biaya pemasaran dan promosi layanan",
-        "E. Biaya untuk mengurangi keluhan pelanggan"
-      ],
-      correct: "A. Biaya yang dikeluarkan untuk menjalankan dan mempertahankan operasi layanan, termasuk biaya tenaga kerja, bahan, peralatan, dan teknologi"
-    },
-    {
-      text: "Bagaimana cara meminimalkan waktu tunggu dalam layanan operasional?",
-      options: [
-        "A. Meningkatkan alur kerja, mengoptimalkan jadwal staf, menggunakan teknologi otomatisasi, dan menghindari bottleneck",
-        "B. Mengurangi jumlah staf yang terlibat dalam proses",
-        "C. Mengurangi jumlah layanan yang tersedia untuk pelanggan",
-        "D. Menunda penyelesaian tugas hingga ada permintaan lebih banyak",
-        "E. Meningkatkan jumlah antrean untuk pelanggan"
-      ],
-      correct: "A. Meningkatkan alur kerja, mengoptimalkan jadwal staf, menggunakan teknologi otomatisasi, dan menghindari bottleneck"
-    },
-    {
-      text: "Apa yang dimaksud dengan 'service recovery' dalam layanan operasional?",
-      options: [
-        "A. Proses untuk memperbaiki dan mengatasi keluhan atau masalah yang dialami oleh pelanggan, dengan tujuan untuk mengembalikan kepercayaan pelanggan",
-        "B. Proses mengabaikan keluhan pelanggan yang kecil",
-        "C. Proses mengalihkan pelanggan ke departemen lain untuk penyelesaian masalah",
-        "D. Proses menanggapi keluhan pelanggan dengan cara yang lambat dan tidak efektif",
-        "E. Proses menghentikan layanan sementara untuk menganalisis masalah"
-      ],
-      correct: "A. Proses untuk memperbaiki dan mengatasi keluhan atau masalah yang dialami oleh pelanggan, dengan tujuan untuk mengembalikan kepercayaan pelanggan"
-    },
-    {
-      text: "Sebutkan contoh tindakan yang dapat dilakukan untuk meningkatkan komunikasi internal dalam layanan operasional!",
-      options: [
-        "A. Mengadakan rapat rutin untuk update informasi, menggunakan platform komunikasi yang efisien seperti aplikasi chatting, serta mengadakan pelatihan tentang pentingnya komunikasi yang jelas dan terbuka di dalam tim",
-        "B. Menunda komunikasi hingga akhir bulan",
-        "C. Menghindari rapat dan hanya mengandalkan email",
-        "D. Mengurangi penggunaan platform komunikasi",
-        "E. Mengabaikan pelatihan staf tentang komunikasi"
-      ],
-      correct: "A. Mengadakan rapat rutin untuk update informasi, menggunakan platform komunikasi yang efisien seperti aplikasi chatting, serta mengadakan pelatihan tentang pentingnya komunikasi yang jelas dan terbuka di dalam tim"
-    },
-    {
-      text: "Apa yang dimaksud dengan 'root cause analysis' dalam layanan operasional?",
-      options: [
-        "A. Teknik untuk mencari dan mengidentifikasi penyebab utama dari suatu masalah atau gangguan dalam proses operasional",
-        "B. Proses mengabaikan masalah yang muncul",
-        "C. Proses menilai performa staf",
-        "D. Analisis untuk mempercepat layanan",
-        "E. Teknik untuk meningkatkan produktivitas"
-      ],
-      correct: "A. Teknik untuk mencari dan mengidentifikasi penyebab utama dari suatu masalah atau gangguan dalam proses operasional"
-    }
+  {
+    text: "Apa alasan yang dapat digunakan untuk menambah anggaran perlengkapan kebersihan?",
+    options: [
+      "A. Mengganti barang yang rusak dan memenuhi kebutuhan baru",
+      "B. Membeli barang tambahan sebagai cadangan",
+      "C. Meningkatkan jumlah barang walau stok masih cukup",
+      "D. Menyesuaikan harga dengan inflasi",
+      "E. Mengikuti tren perlengkapan baru"
+    ],
+    correct: "A. Mengganti barang yang rusak dan memenuhi kebutuhan baru"
+  },
+  {
+    text: "Jenis bahan pembersih apa yang paling efisien untuk lantai kantor berbahan keramik?",
+    options: [
+      "A. Detergen biasa",
+      "B. Pembersih kaca",
+      "C. Cairan pel khusus keramik",
+      "D. Larutan antiseptik",
+      "E. Pemutih pakaian"
+    ],
+    correct: "C. Cairan pel khusus keramik"
+  },
+  {
+    text: "Apa kriteria utama dalam memilih pemasok perlengkapan kebersihan?",
+    options: [
+      "A. Lokasi pemasok",
+      "B. Harga murah tanpa mempertimbangkan kualitas",
+      "C. Kualitas barang dan ketepatan pengiriman",
+      "D. Popularitas pemasok",
+      "E. Kecepatan promosi pemasok"
+    ],
+    correct: "C. Kualitas barang dan ketepatan pengiriman"
+  },
+  {
+    text: "Apa yang harus dilakukan jika anggaran perlengkapan kebersihan kantor terbatas?",
+    options: [
+      "A. Mengurangi frekuensi kebersihan kantor",
+      "B. Mencari alternatif barang yang lebih ekonomis namun tetap berkualitas",
+      "C. Membatalkan seluruh pengadaan",
+      "D. Memprioritaskan barang-barang yang kurang penting",
+      "E. Menggunakan barang bekas"
+    ],
+    correct: "B. Mencari alternatif barang yang lebih ekonomis namun tetap berkualitas"
+  },
+  {
+    text: "Siapa yang bertanggung jawab untuk memastikan kebutuhan perlengkapan kebersihan kantor terpenuhi?",
+    options: [
+      "A. Seluruh pegawai",
+      "B. Bagian logistik atau administrasi kantor",
+      "C. Pimpinan kantor",
+      "D. Tim kebersihan kantor",
+      "E. Bagian keuangan kantor"
+    ],
+    correct: "B. Bagian logistik atau administrasi kantor"
+  },
+  {
+    text: "Apa langkah pertama yang harus dilakukan sebelum membersihkan ruangan?",
+    options: [
+      "A. Menyiapkan alat kebersihan yang diperlukan",
+      "B. Menyapu lantai terlebih dahulu",
+      "C. Memastikan ruangan kosong dari penghuni",
+      "D. Memulai dengan membersihkan kaca jendela",
+      "E. Menggunakan pengharum ruangan"
+    ],
+    correct: "A. Menyiapkan alat kebersihan yang diperlukan"
+  },
+  {
+    text: "Apa tujuan utama dari menggunakan kain microfiber saat membersihkan peralatan elektronik?",
+    options: [
+      "A. Menyerap debu lebih baik tanpa meninggalkan goresan",
+      "B. Lebih murah dibandingkan kain biasa",
+      "C. Tidak memerlukan cairan pembersih tambahan",
+      "D. Lebih cepat kering setelah digunakan",
+      "E. Mudah dibersihkan setelah dipakai"
+    ],
+    correct: "A. Menyerap debu lebih baik tanpa meninggalkan goresan"
+  },
+  {
+    text: "Alat kebersihan yang digunakan untuk membersihkan debu pada sudut yang sulit dijangkau adalah:",
+    options: [
+      "A. Sapu biasa",
+      "B. Kemoceng berbulu halus",
+      "C. Lap basah",
+      "D. Vacuum cleaner dengan nosel kecil",
+      "E. Pembersih kaca"
+    ],
+    correct: "D. Vacuum cleaner dengan nosel kecil"
+  },
+  {
+    text: "Cairan pembersih apa yang paling tepat digunakan untuk membersihkan noda pada lantai keramik?",
+    options: [
+      "A. Larutan cuka dan air",
+      "B. Cairan pemutih",
+      "C. Sabun pencuci piring",
+      "D. Cairan pembersih lantai khusus keramik",
+      "E. Detergen bubuk"
+    ],
+    correct: "D. Cairan pembersih lantai khusus keramik"
+  },
+  {
+    text: "Apa yang harus dilakukan setelah membersihkan meja kerja dengan cairan pembersih?",
+    options: [
+      "A. Membiarkan meja mengering sendiri",
+      "B. Membersihkan meja kembali dengan kain kering",
+      "C. Mengoleskan pengharum meja",
+      "D. Meletakkan kembali barang-barang tanpa menunggu meja kering",
+      "E. Menggunakan kain basah tambahan untuk memastikan kebersihan"
+    ],
+    correct: "B. Membersihkan meja kembali dengan kain kering"
+  },
+  {
+    text: "Bagaimana pengelola umum memastikan bahwa ruangan sudah siap digunakan pada hari acara?",
+    options: [
+      "A. Mengunjungi ruangan sehari sebelumnya untuk inspeksi",
+      "B. Menghubungi penyedia ruangan melalui telepon",
+      "C. Menyerahkan tanggung jawab kepada pihak lain",
+      "D. Memastikan pembayaran ruangan selesai",
+      "E. Mengatur waktu kedatangan peserta lebih awal"
+    ],
+    correct: "A. Mengunjungi ruangan sehari sebelumnya untuk inspeksi"
+  },
+  {
+    text: "Apa yang sebaiknya dilakukan jika ruangan yang dipesan tidak tersedia pada hari acara?",
+    options: [
+      "A. Membatalkan acara",
+      "B. Mencari ruangan pengganti secara cepat",
+      "C. Mengadakan acara di luar ruangan",
+      "D. Menunda acara hingga ruangan tersedia",
+      "E. Menggunakan ruangan yang tidak sesuai kapasitas"
+    ],
+    correct: "B. Mencari ruangan pengganti secara cepat"
+  },
+  {
+    text: "Fasilitas apa yang sering diabaikan tetapi penting dalam sebuah acara kedinasan?",
+    options: [
+      "A. Ketersediaan parkir",
+      "B. Wi-Fi berkecepatan tinggi",
+      "C. Air minum untuk peserta",
+      "D. Ruang penyimpanan barang",
+      "E. Tempat istirahat untuk panitia"
+    ],
+    correct: "B. Wi-Fi berkecepatan tinggi"
+  },
+  {
+    text: "Apa manfaat utama dari menyusun daftar periksa (checklist) untuk acara?",
+    options: [
+      "A. Mengurangi jumlah staf yang dibutuhkan",
+      "B. Menghindari kelupaan terhadap detail penting",
+      "C. Menambah waktu untuk pelaksanaan acara",
+      "D. Membantu membatasi anggaran acara",
+      "E. Mengurangi risiko keluhan dari peserta"
+    ],
+    correct: "B. Menghindari kelupaan terhadap detail penting"
+  },
+  {
+    text: "Apa yang harus dilakukan untuk memastikan konsumsi peserta memadai selama acara?",
+    options: [
+      "A. Menyediakan makanan sebanyak mungkin",
+      "B. Membiarkan peserta membawa makanan sendiri",
+      "C. Mengurangi biaya katering untuk menghemat anggaran",
+      "D. Menyediakan hanya snack ringan",
+      "E. Menyediakan makanan yang sesuai kebutuhan peserta"
+    ],
+    correct: "E. Menyediakan makanan yang sesuai kebutuhan peserta"
+  },
+  {
+    text: "Langkah pertama yang harus dilakukan pengelola umum untuk memastikan peralatan dan barang-barang gedung dalam kondisi baik adalah:",
+    options: [
+      "A. Membuat inventarisasi aset secara terperinci",
+      "B. Meminta laporan dari staf kebersihan",
+      "C. Memeriksa manual setiap peralatan",
+      "D. Menghubungi vendor untuk perawatan",
+      "E. Mengganti peralatan lama secara berkala"
+    ],
+    correct: "A. Membuat inventarisasi aset secara terperinci"
+  },
+  {
+    text: "Mengapa jadwal perawatan preventif penting dalam pengelolaan gedung?",
+    options: [
+      "A. Untuk mengurangi biaya operasional",
+      "B. Untuk memastikan semua staf terlibat",
+      "C. Untuk menghindari pembelian peralatan baru",
+      "D. Untuk memperpanjang umur peralatan",
+      "E. Untuk mengurangi beban kerja pengelola"
+    ],
+    correct: "D. Untuk memperpanjang umur peralatan"
+  },
+  {
+    text: "Apa prioritas utama saat memeriksa peralatan listrik di gedung?",
+    options: [
+      "A. Menentukan usia peralatan",
+      "B. Memastikan keamanan penggunaannya",
+      "C. Mengganti komponen yang terlihat usang",
+      "D. Membersihkan debu pada komponen",
+      "E. Mencatat spesifikasi teknis"
+    ],
+    correct: "B. Memastikan keamanan penggunaannya"
+  },
+  {
+    text: "Dokumen apa yang penting disiapkan untuk memastikan pemeliharaan peralatan berjalan sesuai rencana?",
+    options: [
+      "A. Daftar belanja suku cadang",
+      "B. Buku panduan perawatan vendor",
+      "C. Laporan harian operasional",
+      "D. Jadwal inspeksi berkala",
+      "E. Catatan keluhan pengguna"
+    ],
+    correct: "D. Jadwal inspeksi berkala"
+  },
+  {
+    text: "Apa yang sebaiknya dilakukan jika ada barang atau peralatan yang sudah melewati masa pakainya?",
+    options: [
+      "A. Langsung mengganti dengan yang baru",
+      "B. Memperbaiki dan tetap digunakan",
+      "C. Menggunakan barang tersebut hingga benar-benar rusak",
+      "D. Menghapus dari inventaris dan mengajukan pembelian baru",
+      "E. Menunggu rekomendasi dari vendor"
+    ],
+    correct: "D. Menghapus dari inventaris dan mengajukan pembelian baru"
+  },
+  {
+    text: "Apa cara terbaik untuk menangani keluhan terkait makanan dari tamu selama acara?",
+    options: [
+      "A. Mengabaikan keluhan jika tidak signifikan",
+      "B. Memberikan kompensasi berupa menu tambahan",
+      "C. Mencatat keluhan untuk evaluasi pasca acara",
+      "D. Meminta maaf dan menawarkan solusi langsung",
+      "E. Mengganti vendor katering di acara berikutnya"
+    ],
+    correct: "D. Meminta maaf dan menawarkan solusi langsung"
+  },
+  {
+    text: "Apa yang harus dilakukan jika minuman panas tumpah di meja tamu selama acara?",
+    options: [
+      "A. Membersihkan dengan segera dan meminta maaf",
+      "B. Mengabaikan insiden dan melanjutkan acara",
+      "C. Menawarkan kompensasi berupa minuman gratis",
+      "D. Meminta tamu untuk membersihkan sendiri",
+      "E. Mengganti seluruh pengaturan meja"
+    ],
+    correct: "A. Membersihkan dengan segera dan meminta maaf"
+  },
+  {
+    text: "Faktor apa yang sering diabaikan tetapi penting dalam penyajian makanan dan minuman?",
+    options: [
+      "A. Jumlah makanan yang berlebih",
+      "B. Kebersihan serbet dan perlengkapan kecil",
+      "C. Varian rasa makanan",
+      "D. Pilihan minuman selain air putih",
+      "E. Kecepatan penyajian"
+    ],
+    correct: "B. Kebersihan serbet dan perlengkapan kecil"
+  },
+  {
+    text: "Apa manfaat utama melakukan evaluasi penyajian makanan setelah acara?",
+    options: [
+      "A. Menentukan menu yang paling disukai tamu",
+      "B. Mengurangi anggaran untuk acara berikutnya",
+      "C. Menyempurnakan layanan di acara mendatang",
+      "D. Menghindari vendor katering yang sama",
+      "E. Mengidentifikasi tamu yang hadir"
+    ],
+    correct: "C. Menyempurnakan layanan di acara mendatang"
+  },
+  {
+    text: "Apa langkah yang paling penting untuk menghindari sisa makanan berlebih dalam acara?",
+    options: [
+      "A. Membatasi menu yang disajikan",
+      "B. Menggunakan jasa vendor katering yang hemat",
+      "C. Mengestimasi jumlah tamu dengan akurat",
+      "D. Mengurangi porsi makanan setiap tamu",
+      "E. Memesan makanan sesuai anggaran minimum"
+    ],
+    correct: "C. Mengestimasi jumlah tamu dengan akurat"
+  },
+  {
+    text: "Langkah pertama yang harus dilakukan oleh pengelola umum sebelum mengatur pengantaran barang atau dokumen adalah:",
+    options: [
+      "A. Memilih jasa pengiriman tercepat",
+      "B. Mengidentifikasi tujuan pengiriman",
+      "C. Menentukan anggaran pengiriman",
+      "D. Mengemas barang dengan aman",
+      "E. Membuat daftar pengiriman yang diperlukan"
+    ],
+    correct: "B. Mengidentifikasi tujuan pengiriman"
+  },
+  {
+    text: "Apa yang menjadi prioritas utama dalam mengemas dokumen penting untuk pengiriman?",
+    options: [
+      "A. Kecepatan proses pengemasan",
+      "B. Kesesuaian ukuran kemasan",
+      "C. Perlindungan terhadap kerusakan atau kehilangan",
+      "D. Penggunaan bahan kemasan murah",
+      "E. Label kemasan yang menarik"
+    ],
+    correct: "C. Perlindungan terhadap kerusakan atau kehilangan"
+  },
+  {
+    text: "Bagaimana pengelola memastikan bahwa barang yang dikirim telah sampai ke tujuan?",
+    options: [
+      "A. Mengandalkan bukti pembayaran jasa pengiriman",
+      "B. Menghubungi penerima melalui telepon",
+      "C. Menggunakan layanan pengiriman dengan fitur pelacakan",
+      "D. Mengirimkan barang melalui staf internal",
+      "E. Meminta tanda terima dari kurir pengantar"
+    ],
+    correct: "C. Menggunakan layanan pengiriman dengan fitur pelacakan"
+  },
+  {
+    text: "Apa tindakan terbaik jika pengiriman dokumen penting mengalami keterlambatan?",
+    options: [
+      "A. Meminta maaf kepada penerima dan memberikan penjelasan",
+      "B. Menunggu dokumen tiba tanpa tindakan",
+      "C. Membatalkan pengiriman dan menggantinya dengan salinan digital",
+      "D. Mengirim ulang dokumen melalui jalur lain",
+      "E. Menghubungi penyedia layanan pengiriman untuk klarifikasi"
+    ],
+    correct: "E. Menghubungi penyedia layanan pengiriman untuk klarifikasi"
+  },
+  {
+    text: "Apa yang harus dilakukan pengelola jika barang yang akan dikirim berukuran besar dan berat?",
+    options: [
+      "A. Menggunakan kendaraan pribadi untuk pengiriman",
+      "B. Memilih layanan pengiriman khusus untuk barang besar",
+      "C. Membagi barang menjadi beberapa bagian kecil",
+      "D. Mengurangi isi barang agar lebih ringan",
+      "E. Mengirimkan barang dalam waktu yang berbeda"
+    ],
+    correct: "B. Memilih layanan pengiriman khusus untuk barang besar"
+  },
+  {
+    text: "Apa yang sebaiknya dilakukan jika dokumen harus sampai di alamat tujuan dalam waktu kurang dari satu hari?",
+    options: [
+      "A. Menggunakan layanan pengiriman kilat atau same-day delivery",
+      "B. Mengirim dokumen melalui email untuk sementara",
+      "C. Mengantarkan dokumen secara langsung menggunakan kendaraan pribadi",
+      "D. Menggunakan kurir lokal yang tidak memerlukan proses panjang",
+      "E. Meminta penerima datang untuk mengambil dokumen"
+    ],
+    correct: "A. Menggunakan layanan pengiriman kilat atau same-day delivery"
+  },
+  {
+    text: "Apa yang menjadi perhatian utama saat memilih jasa pengiriman untuk dokumen perusahaan?",
+    options: [
+      "A. Biaya yang paling ekonomis",
+      "B. Kecepatan waktu pengiriman",
+      "C. Reputasi layanan pengiriman",
+      "D. Jaminan keamanan dan privasi dokumen",
+      "E. Popularitas penyedia layanan"
+    ],
+    correct: "D. Jaminan keamanan dan privasi dokumen"
+  },
+  {
+    text: "Apa langkah yang harus dilakukan pengelola setelah dokumen berhasil dikirim?",
+    options: [
+      "A. Menyimpan bukti pengiriman untuk arsip",
+      "B. Menghubungi penerima untuk konfirmasi",
+      "C. Memastikan dokumen dicatat dalam laporan pengiriman",
+      "D. Melakukan evaluasi terhadap proses pengiriman",
+      "E. Semua jawaban benar"
+    ],
+    correct: "E. Semua jawaban benar"
+  },
+  {
+    text: "Bagaimana memastikan dokumen penting tidak tertukar selama proses pengiriman?",
+    options: [
+      "A. Menyertakan nomor referensi unik pada paket",
+      "B. Menggunakan amplop dengan warna mencolok",
+      "C. Menyusun dokumen berdasarkan prioritas",
+      "D. Mengemas dokumen di lokasi yang berbeda",
+      "E. Mengirimkan dokumen secara terpisah"
+    ],
+    correct: "A. Menyertakan nomor referensi unik pada paket"
+  },
+  {
+    text: "Apa manfaat menggunakan asuransi pengiriman untuk dokumen bernilai tinggi?",
+    options: [
+      "A. Mengurangi risiko dokumen hilang",
+      "B. Memberikan perlindungan tambahan terhadap kehilangan atau kerusakan",
+      "C. Memastikan dokumen tiba lebih cepat",
+      "D. Mengurangi biaya pengiriman secara keseluruhan",
+      "E. Memberikan reputasi baik pada perusahaan pengirim"
+    ],
+    correct: "B. Memberikan perlindungan tambahan terhadap kehilangan atau kerusakan"
+  },
+  {
+    "text": "Dapat menjalin hubungan baik antar anggota organisasi, struktur anggota dapat mengetahui tugas, kewajiban dan tanggung jawabnya, spesialisasi dalam melakukan tugas. Merupakan manfaat...",
+    "options": [
+      "A. Coordinating",
+      "B. Planning",
+      "C. Organizing",
+      "D. Actuating",
+      "E. Controlling"
+    ],
+    "correct": "C. Organizing"
+  },
+  {
+    "text": "Menentukan sumber dana yang diperlukan, mengalokasikan sumber keuangan yang ada pada segala aktivitas perusahaan atau penyusunan anggaran pengeluaran, dan melakukan pengawasan terhadap penggunaan dan pemanfaatan keuangan, merupakan langkah yang ditempuh oleh manajemen...",
+    "options": [
+      "A. Personalia",
+      "B. Produksi",
+      "C. Keuangan",
+      "D. Pemasaran",
+      "E. Administrasi"
+    ],
+    "correct": "C. Keuangan"
+  },
+  {
+    "text": "Bagaimana Anda membagi tugas kepada rekan dan bawahan Anda?",
+    "options": [
+      "A. Saya membaginya sesuai dengan kepribadian dan sifat",
+      "B. Saya membaginya sesuai dengan minat dan keinginan",
+      "C. Saya membaginya sesuai dengan keahlian dan keterampilan",
+      "D. Saya membaginya sesuai dengan minat dan kemampuan",
+      "E. Saya membaginya sesuai dengan bakat"
+    ],
+    "correct": "C. Saya membaginya sesuai dengan keahlian dan keterampilan"
+  },
+  {
+    "text": "Vendor atau pihak ketiga melaporkan bahwa proyek yang sedang dikerjakan tidak mencapai target tepat waktu. Tindakan yang saya lakukan adalah...",
+    "options": [
+      "A. Meminta bukti untuk dilaporkan kepada atasan",
+      "B. Meminta vendor untuk menyelesaikan pekerjaan tepat waktu",
+      "C. Meminta bukti yang lengkap untuk didiskusikan dan mencarikan solusi",
+      "D. Meminta bukti yang lengkap untuk dilaporkan kepada atasan bahwa vendor kurang baik",
+      "E. Meminta alasan kepada vendor mengapa pekerjaan tidak selesai tepat waktu"
+    ],
+    "correct": "D. Meminta bukti yang lengkap untuk dilaporkan kepada atasan bahwa vendor kurang baik"
+  },
+  {
+    "text": "Anda mendapat klien yang sangat kritis terhadap hasil kerja Anda, menghadapi klien tersebut...",
+    "options": [
+      "A. Bersedia memenuhi semua permintaan sehingga dapat memuaskan klien",
+      "B. Bernegosiasi dengan klien bahwa tidak semua permintaannya dapat dipenuhi",
+      "C. Melaporkan sikap klien tersebut kepada atasan",
+      "D. Meminta atasan untuk menambah pegawai yang dapat membantu klien tersebut",
+      "E. Meminta atasan untuk menambah pegawai khusus"
+    ],
+    "correct": "B. Bernegosiasi dengan klien bahwa tidak semua permintaannya dapat dipenuhi"
+  },
+  {
+    "text": "Saya mampu menuntaskan tugas sebelum batas waktu yang ditetapkan. Saya memiliki waktu senggang pada jam kerja. Biasanya waktu tersebut digunakan untuk...",
+    "options": [
+      "A. Membaca buku-buku yang dapat mendukung pekerjaan saya",
+      "B. Menawarkan bantuan kepada rekan kerja",
+      "C. Meneliti kembali hasil pekerjaan saya",
+      "D. Bersosialisasi dengan rekan-rekan se-kantor",
+      "E. Bersosialisasi dengan rekan-rekan dari tim berbeda"
+    ],
+    "correct": "A. Membaca buku-buku yang dapat mendukung pekerjaan saya"
+  },
+  {
+    "text": "Suatu hari ada seorang klien kebangsaan asing menemui Anda untuk berkonsultasi. Anda tidak mengerti bahasa yang ia gunakan. Sikap Anda....",
+    "options": [
+      "A. Menolak untuk menemuinya karena takut tidak paham",
+      "B. Menyuruh rekan Anda yang memahami bahasa orang asing tersebut untuk menemuinya",
+      "C. Meminta bantuan rekan Anda yang memahami bahasa orang asing tersebut untuk menerjemahkan ketika Anda sedang berbicara dengannya",
+      "D. Berpura-pura memahami pembicaraannya",
+      "E. Meminta orang asing tersebut untuk datang lain kali dan membawa penerjemah"
+    ],
+    "correct": "C. Meminta bantuan rekan Anda yang memahami bahasa orang asing tersebut untuk menerjemahkan ketika Anda sedang berbicara dengannya"
+  },
+  {
+    "text": "Buah mangga milik tetangga Anda berjatuhan dan mengenai genting rumah Anda hingga berlubang. Sikap Anda adalah....",
+    "options": [
+      "A. Mendatangi tetangga Anda dan marah-marah",
+      "B. Menyuruh tetangga Anda untuk menebang pohon mangganya.",
+      "C. Mendatangi tetangga Anda dan meminta dengan sopan agar memangkas dahan-dahan pohon yang berada di atas genting anda",
+      "D. Meminta izin kepada tetangga Anda untuk menebang dahan tersebut.",
+      "E. Menebang pohon mangga tanpa sepengetahuan tetangga Anda"
+    ],
+    "correct": "C. Mendatangi tetangga Anda dan meminta dengan sopan agar memangkas dahan-dahan pohon yang berada di atas genting anda"
+  },
+  {
+    "text": "Rekan kerja Anda yang sedang cuti melahirkan meminta Anda untuk membawakan barang-barangnya yang tertinggal di kantor. Sikap Anda....",
+    "options": [
+      "A. Segera mengantarkannya",
+      "B. Menggunakan jasa kurir untuk mengantar",
+      "C. Mengantarkannya pulang kantor sekaligus menjenguk rekan Anda.",
+      "D. Menolak karena pekerjaan Anda banyak",
+      "E. Menyuruh rekan Anda yang lain untuk mengantar."
+    ],
+    "correct": "C. Mengantarkannya pulang kantor sekaligus menjenguk rekan Anda."
+  },
+  {
+    "text": "Planning, Organizing, Motivating, Controlling, Evaluating merupakan fungsi manajemen menurut...",
+    "options": [
+      "A. Sondang P. Siagian",
+      "B. Henry Fayol",
+      "C. M. Gullick",
+      "D. Harold Koontz",
+      "E. George R. Terry"
+    ],
+    "correct": "A. Sondang P. Siagian"
+  },
+  {
+    "text": "Anda adalah karyawan yang memiliki kompetensi di bidang pemasaran dan dipercaya untuk memimpin tim yang kurang produktif. Usia mereka jauh lebih tua dari pada Anda. Bagaimana strategi Anda?",
+    "options": [
+      "A. Memaksa anggota tim untuk mengikuti kehendak Anda",
+      "B. Mengevaluasi kinerja tim dan mendorongnya untuk berubah",
+      "C. Mengambil alih tanggung jawab tim",
+      "D. Menggunakan cara baru sesuai kemampuan Anda",
+      "E. Mendiskusikan apa hambatannya selama ini dan mencari solusi bersama serta mengevaluasi secara rutin"
+    ],
+    "correct": "E. Mendiskusikan apa hambatannya selama ini dan mencari solusi bersama serta mengevaluasi secara rutin"
+  },
+  {
+    "text": "Yang termasuk pengumpulan data primer adalah...",
+    "options": [
+      "A. Profil kesehatan Kecamatan A",
+      "B. Laporan tahunan program sanitarian kesehatan",
+      "C. Hasil kajian Surveilans Vektor",
+      "D. Hasil diskusi kelompok terarah",
+      "E. Laporan kejadian wabah"
+    ],
+    "correct": "D. Hasil diskusi kelompok terarah"
+  },
+  {
+    "text": "Yang termasuk pengumpulan data sekunder adalah...",
+    "options": [
+      "A. Hasil wawancara tanpa panduan",
+      "B. Laporan tahunan program Promkes",
+      "C. Hasil wawancara dengan panduan",
+      "D. Hasil diskusi kelompok terarah",
+      "E. Hasil observasi berkelanjutan"
+    ],
+    "correct": "B. Laporan tahunan program Promkes"
+  },
+  {
+    "text": "Kegiatan mengubah data berbentuk huruf menjadi data berbentuk angka atau bilangan disebut juga...",
+    "options": [
+      "A. Entry data",
+      "B. Editing",
+      "C. Coding",
+      "D. Tabulating",
+      "E. Cleaning"
+    ],
+    "correct": "C. Coding"
+  },
+  {
+    "text": "Proses penyederhanaan data dalam bentuk yang lebih mudah dibaca dan diinterpretasikan disebut juga...",
+    "options": [
+      "A. Interpretasi data",
+      "B. Analisa data",
+      "C. Tabulating",
+      "D. Recording",
+      "E. Cleaning"
+    ],
+    "correct": "B. Analisa data"
+  },
+  {
+    "text": "Pengumpulan data primer berupa kelembapan udara di dalam rumah paling tepat menggunakan metode pengumpulan data...",
+    "options": [
+      "A. Kuisioner",
+      "B. Pengukuran",
+      "C. Wawancara",
+      "D. Pengamatan",
+      "E. Rekam medis"
+    ],
+    "correct": "B. Pengukuran"
+  },
+  {
+    "text": "Hal yang perlu diperhatikan dalam membuat atau merumuskan kegiatan programa adalah...",
+    "options": [
+      "A. Kecepatan",
+      "B. Waktu",
+      "C. Ketersediaan teknologi",
+      "D. Ketepatan",
+      "E. Hari"
+    ],
+    "correct": "C. Ketersediaan teknologi"
+  },
+  {
+    "text": "Dorongan atau bimbingan dari pemerintah bagi peningkatan kerja sama kelompok-kelompok tani dapat diperlihatkan dalam bentuk...",
+    "options": [
+      "A. Penyediaan bahan-bahan khusus",
+      "B. Membasmi hama-hama yang umum",
+      "C. Organisasi koperasi",
+      "D. Kegiatan politik petani",
+      "E. Membeli hasil panen dengan harga tinggi"
+    ],
+    "correct": "A. Penyediaan bahan-bahan khusus"
+  },
+  {
+    "text": "Penyajian data yang merupakan gabungan dari diagram batang dan garis adalah...",
+    "options": [
+      "A. Diagram peta",
+      "B. Diagram pencar",
+      "C. Diagram lingkaran",
+      "D. Piktogram",
+      "E. Histogram"
+    ],
+    "correct": "E. Histogram"
+  },
+  {
+    "text": "Kegiatan yang menggambarkan jawaban responden dengan cara tertentu dan dapat digunakan untuk menciptakan statistik deskriptif variabel-variabel yang diteliti disebut...",
+    "options": [
+      "A. Cleaning",
+      "B. Tabulating",
+      "C. Analisa data",
+      "D. Editing",
+      "E. Recording"
+    ],
+    "correct": "B. Tabulating"
+  },
+  {
+    "text": "Guru mengadakan penilaian yang mengacu pada kriteria yang telah ditetapkan dan mencakup semua aspek kompetensi baik afektif kognitif dan psikomotorik itu adalah prinsip penilaian...",
+    "options": [
+      "A. beracuan kriteria dan menyeluruh",
+      "B. beracuan kriteria dan sistematis",
+      "C. akuntabel dan menyeluruh",
+      "D. objektif dan menyeluruh"
+    ],
+    "correct": "A. beracuan kriteria dan menyeluruh"
+  },
+  {
+    "text": "Langkah-langkah menulis soal tes uraian sebagai berikut kecuali...",
+    "options": [
+      "A. melakukan analisis KI dan KD serta indikator",
+      "B. mendefinisikan tujuan-tujuan pembelajaran dan lingkup bahan ajar yang mestinya diungkap",
+      "C. menyusun kisi-kisi",
+      "D. membuat pedoman penskoran"
+    ],
+    "correct": "C. menyusun kisi-kisi"
+  },
+  {
+    "text": "Berikut adalah tugas dan kewenangan satuan pendidikan dalam penilaian hasil belajar peserta didik kecuali...",
+    "options": [
+      "A. menetapkan standar ketuntasan belajar yang harus dicapai peserta didik",
+      "B. menetapkan kriteria kenaikan kelas",
+      "C. menetapkan kriteria kelulusan peserta didik",
+      "D. menjadi panitia pelaksana ujian nasional tingkat satuan pendidikan"
+    ],
+    "correct": "D. menjadi panitia pelaksana ujian nasional tingkat satuan pendidikan"
+  },
+  {
+    "text": "Dalam menentukan jumlah alokasi waktu pada Kompetensi Dasar Bu Dina selalu memperhatikan aspek-aspek dibawah ini kecuali...",
+    "options": [
+      "A. jumlah minggu efektif",
+      "B. jumlah dan keluasan KD",
+      "C. kedalaman dan tingkat kesulitan KD",
+      "D. jangka waktu penggunaan media"
+    ],
+    "correct": "D. jangka waktu penggunaan media"
+  },
+  {
+    "text": "Penentuan alokasi waktu pada silabus berdasarkan...",
+    "options": [
+      "A. program tahunan",
+      "B. program semester",
+      "C. analisis minggu efektif",
+      "D. kedalaman materi"
+    ],
+    "correct": "C. analisis minggu efektif"
+  },
+  {
+    "text": "Jika pada silabus terdapat diksi 'memecahkan masalah sampah' hal itu terdapat pada komponen...",
+    "options": [
+      "A. materi pembelajaran",
+      "B. kegiatan pembelajaran",
+      "C. kompetensi dasar",
+      "D. indikator pencapaian kompetensi"
+    ],
+    "correct": "C. kompetensi dasar"
+  },
+  {
+    "text": "Kumpulan tugas siswa yang akan dijadikan bahan untuk menyusun laporan hasil belajar kepada orang tua disebut penilaian...",
+    "options": [
+      "A. jurnal",
+      "B. portofolio",
+      "C. raport",
+      "D. produk"
+    ],
+    "correct": "B. portofolio"
+  },
+  {
+    "text": "Dalam menyusun instrumen penilaian tertulis harus diperhatikan hal-hal berikut kecuali...",
+    "options": [
+      "A. materi",
+      "B. bahasa",
+      "C. relevansi",
+      "D. kaidah penulisan"
+    ],
+    "correct": "C. relevansi"
+  },
+  {
+    "text": "Perilaku yang dapat diukur untuk menunjukkan ketercapaian kompetensi dasar tertentu yang menjadi acuan penilaian mata pelajaran adalah...",
+    "options": [
+      "A. kompetensi inti",
+      "B. standar kompetensi lulusan",
+      "C. indikator",
+      "D. standar isi"
+    ],
+    "correct": "C. indikator"
+  },
+  {
+    "text": "Seorang guru sebelum melaksanakan pembelajaran mempersiapkan perangkat pembelajaran. Setelah menyusun indikator pembelajaran untuk KD tertentu. Selanjutnya menyusun tujuan pembelajaran. Hal ini termuat dalam...",
+    "options": [
+      "A. silabus",
+      "B. RPP",
+      "C. program tahunan",
+      "D. standar kompetensi lulusan"
+    ],
+    "correct": "B. RPP"
+  },
+  {
+    "text": "Vendor atau pihak ketiga melaporkan bahwa proyek yang sedang dikerjakan tidak mencapai target tepat waktu. Tindakan yang saya lakukan adalah",
+    "options": [
+      "A. Meminta bukti untuk dilaporkan kepada atasan",
+      "B. Meminta vendor untuk menyelesaikan pekerjaan tepat waktu",
+      "C. Meminta bukti yang lengkap untuk didiskusikan dan mencarikan solusi",
+      "D. Meminta bukti yang lengkap untuk dilaporkan kepada atasan bahwa vendor kurang baik",
+      "E. Meminta alasan kepada vendor mengapa pekerjaan tidak selesai tepat waktu"
+    ],
+    "correct": "D. Meminta bukti yang lengkap untuk dilaporkan kepada atasan bahwa vendor kurang baik"
+  },
+  {
+    "text": "Anda adalah karyawan yang memiliki kompetensi dibidang pemasaran, dan dipercaya untuk memimpin tim yang kurang produktif. Usia mereka jauh lebih tua dari pada anda. Bagaimana strategi anda ?",
+    "options": [
+      "A. Memaksa anggota tim untuk mengikuti kehendak anda",
+      "B. Mengevaluasi kinerja tim dan mendorongnya untuk berubah",
+      "C. Mengambil alih tanggungjawab tim sebagai tanggungjawab",
+      "D. Menggunakan cara baru sesuai kemampuan anda",
+      "E. Mendiskusikan apa hambatannya selama ini dan mencari solusi bersama serta mengevaluasi secara rutin"
+    ],
+    "correct": "E. Mendiskusikan apa hambatannya selama ini dan mencari solusi bersama serta mengevaluasi secara rutin"
+  },
+  {
+    "text": "Apakah Anda bersikeras agar orang lain melakukan pembagian tugas secara adil?",
+    "options": [
+      "A. Tergantung hal tersebut dapat ditoleransi atau tidak?",
+      "B. Jelas, karena keadilan adalah utama dan mutlak",
+      "C. Tidak masalah jika kedua pihak puas walaupun bukan dalam posisi adil",
+      "D. Tidak masalah walaupun tidak adil, proporsinya cukup dan dapat berjalan dengan baik",
+      "E. Jelas, karena keadilan adalah yang utama"
+    ],
+    "correct": "B. Jelas, karena keadilan adalah utama dan mutlak"
+  },
+  {
+    "text": "Untuk mencapai tujuan kelompok yang telah ditetapkan saya :",
+    "options": [
+      "A. Tidak mempermasalahkan apakah orang lain mau bekerja dengan baik atau tidak",
+      "B. Mendorong orang lain untuk bekerja dengan baik jika situasi memungkinkan",
+      "C. Mendorong orang lain bekerja dengan baik jika diperlukan",
+      "D. Menstimulasi orang lain untuk mau bekerja dengan baik",
+      "E. Mengajak orang lain bersama-sama untuk bekerja dengan baik"
+    ],
+    "correct": "D. Menstimulasi orang lain untuk mau bekerja dengan baik"
+  },
+  {
+    "text": "Prosedur kerja yang baik menurut anda adalah....",
+    "options": [
+      "A. Meskipun berbelit- belit selalu mengikuti prosedur yang telah ditetapkan",
+      "B. Sesuai dengan perintah dan arahan atasan",
+      "C. Menerapkan prosedur baru agar tidak ketinggalan zaman",
+      "D. Menerapkan prosedur baru yang lebih maju",
+      "E. Melakukan inovasi secara berkelanjutan agar prosedur kerja semakin efektif dan efisien"
+    ],
+    "correct": "E. Melakukan inovasi secara berkelanjutan agar prosedur kerja semakin efektif dan efisien"
+  },
+  {
+    "text": "Penerapan PRA pada fase perencanaan, diantaranya adalah....",
+    "options": [
+      "A. meningkatkan kesadaran masyarakat tentang adanya masalah spesifik",
+      "B. meningkatkan kerjasama dalam meninjau kembali permasalahan",
+      "C. mendapat informasi yang lebih rinci tentang kelayakan rencana kegiatan",
+      "D. mengantisipasi konflik yang terjadi diantara kelompok masyarakat",
+      "E. meningkatkan kesadaran masyarakat tentang adanya masalah perbedaan"
+    ],
+    "correct": "C. mendapat informasi yang lebih rinci tentang kelayakan rencana kegiatan"
+  },
+  {
+    "text": "Saya tergolong orang yang kreatif, karena saya...",
+    "options": [
+      "A. Mampu menyelesaikan berbagai tugas sulit dalam waktu yang singkat",
+      "B. Senang menghasilkan karya-karya intelektual yang bermanfaat",
+      "C. Memiliki cara pandang yang unik dan kontroversial",
+      "D. Mempunyai ide-ide baru yang belum pernah dilakukan sebelumnya",
+      "E. Senang menghasilkan karya-karya baru"
+    ],
+    "correct": "B. Senang menghasilkan karya-karya intelektual yang bermanfaat"
+  },
+  {
+    "text": "Anda mendapat klien yang sangat kritis terhadap hasil kerja anda, menghadapi klien tersebut;",
+    "options": [
+      "A. Bersedia memenuhi semua permintaan sehingga dapat memuaskan klien",
+      "B. Bernegosiasi dengan klien bahwa tidak semua permintaannya dapat dipenuhi",
+      "C. Melaporkan sikap klien tersebut kepada atasan",
+      "D. Meminta atasan untuk menambah pegawai yang dapat membantu klien tersebut",
+      "E. Meminta atasan untuk menambah pegawai khusus"
+    ],
+    "correct": "B. Bernegosiasi dengan klien bahwa tidak semua permintaannya dapat dipenuhi"
+  },
+  {
+    "text": "Apa yang Anda lakukan dalam sebuah diskusi dengan sekelompok kecil teman-teman Anda sekantor?",
+    "options": [
+      "A. Saya selalu aktif berpendapat dan mengarahkan teman- teman untuk aktif juga",
+      "B. Jika perlui bicara maka saya ungkapkan, jika tidak maka saya cukup mendengar",
+      "C. Saya menjadi pengamat sejenak kemudian aktif berpendapat",
+      "D. Saya lebih banyak diam dan berbicara sekedaarnya",
+      "E. Saya aktif berpendapat dan mengarahkan teman- teman untuk mengikuti pendapat saya"
+    ],
+    "correct": "A. Saya selalu aktif berpendapat dan mengarahkan teman- teman untuk aktif juga"
+  },
+  {
+    "text": "Dengan dana terbatas anda diminta oleh atasan untuk mengadakan kegiatan di kantor. Beberapa pendahulu anda tidak terlalu sukses melaksanakan kegiatan tersebut, karena adanya right budget policy. Reaksi anda ketika menerima tugas tersebut?",
+    "options": [
+      "A. Menolak tugas tersebut karena dirasa mustahil untuk dilaksanakan",
+      "B. Menerima tugas tersebut dengan berbagai syarat yang harus dipenuhi.",
+      "C. Menolak tugas dengan mengemukakan kekurangan - kekurangan diri, dan meminta atasan untuk menugaskan kepada orang lain.",
+      "D. Menerima tugas tersebut kemudian mengajak rekan- rekan kerja untuk mendiskusikan berbagai alternatif cara menyelesaikan tugas tersebut.",
+      "E. Menerima tugas tersebut kemudian mencoba menyelesaikannya sendiri"
+    ],
+    "correct": "D. Menerima tugas tersebut kemudian mengajak rekan- rekan kerja untuk mendiskusikan berbagai alternatif cara menyelesaikan tugas tersebut."
+  },
+  {
+    "text": "Apakah Anda menunjukkan inisiatif dan berusaha untuk mengejar prestasi kerja?",
+    "options": [
+      "A. Saya selalu menunjukkan inisiatif dalam bekerja",
+      "B. Terkadang jika saya terpikirkan ide maka saya akan berinisiatif melakukan sesuatu",
+      "C. Tergantung keadaan dan kondisi saya",
+      "D. Saya tidak pernah berinisiatif tetapi selalu mengerjakan tugas dengan baik",
+      "E. Saya kadang berinisiatif jika diperlukan"
+    ],
+    "correct": "A. Saya selalu menunjukkan inisiatif dalam bekerja"
+  },
+  {
+    "text": "Siswa diminta mengamati proses fotosintesis termasuk penilaian...",
+    "options": [
+      "A. Kinerja",
+      "B. Produk",
+      "C. Portofolio",
+      "D. Proyek",
+      "E. Praktik"
+    ],
+    "correct": "D. Proyek"
+  },
+  {
+    "text": "Dalam mengawali pelajarannya, Pak Joko menyampaikan suatu permasalahan guna menggugah dan menimbulkan kepenasaran-kepenasaran para siswanya. Langkah tersebut bertujuan untuk mendorong para siswa agar mau mengembangkan kreativitasnya. Langkah yang dilakukan Pak Joko itu merupakan bagian dari model pembelajaran....",
+    "options": [
+      "A. Portofolio",
+      "B. Saintifik",
+      "C. Penemuan Diskoveri learning",
+      "D. Autentik"
+    ],
+    "correct": "C. Penemuan Diskoveri learning"
+  },
+  {
+    "text": "Berikut ini merupakan faktor-faktor yang perlu diperhatikan dalam pengembangan kisi-kisi tes uraian, kecuali ....",
+    "options": [
+      "A. Penentuan alokasi waktu",
+      "B. Penentuan pokok bahasan",
+      "C. Penentuan indikator/tujuan",
+      "D. Pendistribusian butir soal"
+    ],
+    "correct": "C. Penentuan indikator/tujuan"
+  },
+  {
+    "text": "Pada awal semester Pak Budi sebagai guru IPA selalu menjelaskan penilaian yang akan dilaksanakan selama satu semester dan penentuan nilai akhir IPA yang akan dijadikan dasar untuk pemberian nilai raport. Hal ini artinya Pak Budi telah menerapkan prinsip penilaian.....",
+    "options": [
+      "A. Sistematis",
+      "B. Terbuka",
+      "C. Terpadu",
+      "D. Sistematis",
+      "E. Akuntabel"
+    ],
+    "correct": "C. Terpadu"
+  },
+  {
+    "text": "Berikut merupakan pelaksanaan PRA di desa, kecuali....",
+    "options": [
+      "A. Disusun satu tahun sekali",
+      "B. Melibatkan kelompok tani, dusun, dan lembaga ekonomi",
+      "C. Dipandu tim petani pemandu",
+      "D. Hanya mencakup sumberdaya manusia",
+      "E. Hanya mencakup sumberdaya alam"
+    ],
+    "correct": "A. Disusun satu tahun sekali"
+  },
+  {
+    "text": "Urutan gambaran isi program penyuluhan adalah....",
+    "options": [
+      "A. Pendahuluan, tujuan kegiatan, masalah, cara mencapai tujuan",
+      "B. Pendahuluan, masalah, tujuan kegiatan, cara mencapai tujuan",
+      "C. Pendahuluan, tujuan kegiatan, cara mencapai tujuan, masalah",
+      "D. Pendahuluan, cara mencapai tujuan, masalah, tujuan kegiatan",
+      "E. Pendahuluan, perencanaan, tujuan kegiatan, cara mencapai tujuan"
+    ],
+    "correct": "A. Pendahuluan, tujuan kegiatan, masalah, cara mencapai tujuan"
+  },
+  {
+    "text": "Koperasi Unit Desa (KUD) menyalurkan sarana produksi pertanian (saprotan) dari Kredit Usaha Tani (KUT) maupun non KUT ke petani melalui...",
+    "options": [
+      "A. Tempat Pelayanan Koperasi (TPK)",
+      "B. Petugas Penyuluh Lapangan (PPL)",
+      "C. Kepala desa",
+      "D. Dinas pertanian",
+      "E. BRI"
+    ],
+    "correct": "A. Tempat Pelayanan Koperasi (TPK)"
+  },
+  {
+    "text": "Anda adalah seorang ASN PPPK di sebuah perusahaan. Anda sudah terbiasa mengajarkan tugas Anda selama setahun terakhir. Tiba-tiba atasan memberikan tugas mendadak di luar tugas Anda. Anda merasa biasa saja dan mengerjakan tersebut.",
+    "options": [
+      "A. Sangat setuju",
+      "B. Setuju",
+      "C. Ragu-ragu",
+      "D. Tidak setuju",
+      "E. Sangat tidak setuju"
+    ],
+    "correct": "A. Sangat setuju"
+  },
+  {
+    "text": "Suatu hari Anda sedang berjalan ke Supermarket. Selain itu Anda juga ingin melanjutkan perjalanan ke kampus. Akan tetapi Anda baru ingat tidak membawa SIM. Jarak ke kampus lebih dekat dengan rumah. Sikap Anda ...",
+    "options": [
+      "A. Pulang untuk mengambil SIM.",
+      "B. Menelepon saudara untuk membawakan SIM.",
+      "C. Berharap tidak ada razia.",
+      "D. Langsung ke kampus sebab jaraknya lebih dekat."
+    ],
+    "correct": "D. Langsung ke kampus sebab jaraknya lebih dekat."
+  },
+  {
+    "text": "Masalah paling vital dalam organisasi dan sering menjadi tantangan manajer...",
+    "options": [
+      "A. Masalah sistem dan prosedur kerja",
+      "B. Masalah teknologi yang selalu berubah",
+      "C. Masalah konsep dan perencanaan",
+      "D. Masalah manusia dan perilakunya",
+      "E. Masalah manusia dan keinginannya"
+    ],
+    "correct": "D. Masalah manusia dan perilakunya"
+  },
+  {
+    "text": "Dalam penyusunan TOR tingkat kabupaten/kota, yang termasuk instrumen kegiatan adalah...",
+    "options": [
+      "A. Formulir evaluasi kesehatan lingkungan",
+      "B. Intervensi fisik",
+      "C. Penyuluhan",
+      "D. Perbaikan jamban keluarga",
+      "E. Lokasi kegiatan"
+    ],
+    "correct": "A. Formulir evaluasi kesehatan lingkungan"
+  },
+  {
+    "text": "Penyuluhan dengan membawa alat peraga merupakan teknik...",
+    "options": [
+      "A. Temu usaha",
+      "B. Demonstrasi",
+      "C. Anjangsana",
+      "D. Temu wisata",
+      "E. Tatap muka"
+    ],
+    "correct": "B. Demonstrasi"
+  },
+  {
+    "text": "Behavior theory adalah...",
+    "options": [
+      "A. Teori sikap",
+      "B. Teori ilmu",
+      "C. Teori tingkah laku",
+      "D. Ilmu politik",
+      "E. Teori kasus"
+    ],
+    "correct": "C. Teori tingkah laku"
+  },
+  {
+    "text": "Bahan yang akan disampaikan oleh para penyuluh kepada pelaku utama dan pelaku usaha merupakan pengertian dari...",
+    "options": [
+      "A. Rencana kerja",
+      "B. Penyuluhan pertanian",
+      "C. Sistem penyuluhan",
+      "D. Materi penyuluhan",
+      "E. Programa penyuluhan"
+    ],
+    "correct": "D. Materi penyuluhan"
+  },
+  {
+    "text": "Yang tidak termasuk media tercetak adalah...",
+    "options": [
+      "A. Poster",
+      "B. Folder",
+      "C. Video",
+      "D. Brosur",
+      "E. Pamflet"
+    ],
+    "correct": "C. Video"
+  },
+  {
+    "text": "Penyuluh disebut juga...",
+    "options": [
+      "A. Pelaku utama",
+      "B. Pelaku usaha",
+      "C. Pegawai pemerintah",
+      "D. Pemberi pesan",
+      "E. Pelayan konsumen"
+    ],
+    "correct": "D. Pemberi pesan"
+  },
+  {
+    "text": "Perumusan masalah yang benar adalah...",
+    "options": [
+      "A. Perumusan masalah perlu dipusatkan pada masalah-masalah unreal-problems",
+      "B. Perumusan masalah perlu dipusatkan pada masalah-masalah yang belum dirasakan masyarakat",
+      "C. Perumusan masalah hendaknya dipusatkan pada masalah-masalah yang dinilai sebagai penyebab tidak terpenuhinya kebutuhan nyata (real needs) masyarakat",
+      "D. Perumusan masalah hendaknya dipusatkan pada masalah potensial",
+      "E. Jika ada lebih dari satu masalah kesehatan, maka tidak perlu diadakan penyusunan prioritas masalah"
+    ],
+    "correct": "C. Perumusan masalah hendaknya dipusatkan pada masalah-masalah yang dinilai sebagai penyebab tidak terpenuhinya kebutuhan nyata (real needs) masyarakat"
+  },
+  {
+    "text": "Dalam menetapkan prioritas masalah harus mempertimbangkan beberapa hal sebagai berikut, kecuali...",
+    "options": [
+      "A. Beratnya atau besarnya masalah",
+      "B. Kelompok masyarakat yang diserang",
+      "C. Distribusi geografis",
+      "D. Pertimbangan politis",
+      "E. Besarnya dana"
+    ],
+    "correct": "E. Besarnya dana"
+  },
+  {
+    "text": "Keuntungan pertanyaan tertutup adalah...",
+    "options": [
+      "A. Mudah dihitung persentase jawabannya",
+      "B. Dapat menggunakan lembar jawaban komputer sehingga cepat menghitungnya",
+      "C. Mudah melacak pendapat berdasarkan waktu",
+      "D. Mudah memfilter jawaban yang tidak berguna atau yang ekstrim",
+      "E. Interpretasi beberapa pembaca dapat berbeda sehingga sulit disimpulkan"
+    ],
+    "correct": "A. Mudah dihitung persentase jawabannya"
+  }
   ];
   
     let currentIndex = 0;
